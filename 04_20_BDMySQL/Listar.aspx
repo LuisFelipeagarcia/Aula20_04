@@ -48,7 +48,7 @@
                         </asp:LinkButton>
 
                         <asp:LinkButton ID="LinkEditar" runat="server">
-                            <a href="<%# Eval("cli_id", "editar.aspx?id={0}") %>"">
+                            <a href="<%# Eval("cli_id", "Editar.aspx?id={0}") %>"">
                                 <span class="fas fa-pencil-alt"></span>
                             </a>
                         </asp:LinkButton>

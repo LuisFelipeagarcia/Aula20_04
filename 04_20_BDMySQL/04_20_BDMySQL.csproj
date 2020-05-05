@@ -88,6 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="detalhes.aspx" />
+    <Content Include="Editar.aspx" />
     <Content Include="Global.asax" />
     <Content Include="img\bd.png" />
     <Content Include="Inserir.aspx" />
@@ -103,6 +104,13 @@
     </Compile>
     <Compile Include="detalhes.aspx.designer.cs">
       <DependentUpon>detalhes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Editar.aspx.cs">
+      <DependentUpon>Editar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Editar.aspx.designer.cs">
+      <DependentUpon>Editar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
