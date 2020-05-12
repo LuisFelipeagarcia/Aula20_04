@@ -93,6 +93,7 @@
     <Content Include="img\bd.png" />
     <Content Include="Inserir.aspx" />
     <Content Include="Listar.aspx" />
+    <Content Include="remover.aspx" />
     <Content Include="TesteBD.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -137,6 +138,13 @@
       <DependentUpon>Master.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="remover.aspx.cs">
+      <DependentUpon>remover.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="remover.aspx.designer.cs">
+      <DependentUpon>remover.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TesteBD.aspx.cs">
       <DependentUpon>TesteBD.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
